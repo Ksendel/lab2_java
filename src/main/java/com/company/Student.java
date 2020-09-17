@@ -45,7 +45,7 @@ public class Student {
 
     public Student(String name, String lastname, String dateOfBirthday, String number, Address homeAddress) {
         setName(name);
-        setLastname(lastname);
+        setLastName(lastname);
         this.dateOfBirthday = dateOfBirthday;
         setNumber(number);
         this.homeAddress = homeAddress;
@@ -72,8 +72,8 @@ public class Student {
         return lastname;
     }
 
-    public void setLastname(String lastname) {
-        checkEmptyOrDie("Lastname", lastname);
+    public void setLastName(String lastname) {
+        checkEmptyOrDie("Last name", lastname);
         this.lastname = capitalize(lastname);
     }
 

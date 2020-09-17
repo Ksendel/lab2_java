@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Enter the name: ");
             askWithRetry(() -> st.setName(in.next()));
             System.out.println("Enter the lastname: ");
-            askWithRetry(() -> st.setLastname(in.next()));
+            askWithRetry(() -> st.setLastName(in.next()));
             System.out.println("Enter the date Of birthday: ");
             askWithRetry(() -> st.setDateOfBirthday(in.next()));
 
