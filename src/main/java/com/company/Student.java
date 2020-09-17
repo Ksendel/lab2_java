@@ -1,5 +1,4 @@
 package com.company;
-import java.text.SimpleDateFormat;
 import java.util.*;
 //import javax.validation.constraints.Min;
 import java.util.regex.Matcher;
@@ -125,8 +124,6 @@ public class Student {
         }
 
     }
-
-
 
     void patternDate(String dateOfBirthday) {
         String regex = "^[0-3]?[0-9]/[0-3]?[0-9]/(?:[0-9]{2})?[0-9]{2}$";
